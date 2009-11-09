@@ -3,7 +3,7 @@
 # set this to the prefix directory of your liblo installation
 export LIBLO=/usr/local
 
-# target is plml.dylib for OSX, plml.so under Linux
+# target extension is dylib for OSX, so under Linux
 export SO=dylib
 
 # if you have multiple SWI Prolog installations or an installation
@@ -11,11 +11,12 @@ export SO=dylib
 # PLLD=/usr/local/bin/plld -p /usr/local/bin/swipl
 export PLLD=plld
 
-# install directories
+# install directories for foreign library and prolog module respectively
 export INSTALL_LIB_TO=~/lib/prolog
 export INSTALL_PL_TO=~/lib/prolog
 
 # flags for install - BSD install seems to be different from GNU install
+# use '-bp' under Linux
 export INSTALL_FLAGS='-bCS'
 
 VER=0.2
