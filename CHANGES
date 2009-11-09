@@ -1,0 +1,8 @@
+*** version 0.2
+
+Supports receiving OSC messages using the server framework from liblo.
+
+osc_now/2 returns the current time in the OSC timetag frame, in terms
+of seconds and fractions of second since 1st Jan 1900 (I think).
+
+
